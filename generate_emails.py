@@ -56,17 +56,7 @@ class emails:
                 str(sur) + '-' + str(name)[0] + '@' + str(dom),
                 str(sur) + '-' + str(name)[0] + str(patr)[0] + '@' + str(dom),
                 str(sur)[:3] + '.' + str(name)[0] + str(patr)[0] + '@' + str(dom),
-                str(name)[0] + str(patr)[0] + '.' + str(sur)[:3] + '@' + str(dom),
-                'dir' + '@' + str(dom),
-                'head' + '@' + str(dom),
-                'director' + '@' + str(dom),
-                'boss' + '@' + str(dom),
-                'main' + '@' + str(dom),
-                'lead' + '@' + str(dom),
-                'leader' + '@' + str(dom),
-                'chief' + '@' + str(dom),
-                'ceo' + '@' + str(dom),
-                str(dom).split('.')[0] + '@' + str(dom)]
+                str(name)[0] + str(patr)[0] + '.' + str(sur)[:3] + '@' + str(dom)]
 
         return all_emails
 
